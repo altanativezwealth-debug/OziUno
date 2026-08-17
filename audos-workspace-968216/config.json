@@ -1,0 +1,333 @@
+{
+  "id": "workspace-968216",
+  "name": "OziUno",
+  "description": "Workspace for OziUno",
+  "version": "4.0.0",
+  "templateVersion": 4,
+  "publicEntry": {
+    "mode": "space-email-gate",
+    "path": "/site/:configId",
+    "component": "components/EmailGate.tsx"
+  },
+  "apps": [
+    {
+      "id": "main",
+      "name": "OziUno",
+      "icon": "Home",
+      "component": "apps/Main/App.tsx"
+    },
+    {
+      "id": "admin",
+      "name": "Admin",
+      "icon": "Shield",
+      "component": "apps/AdminPortal/App.tsx"
+    }
+  ],
+  "terminology": {
+    "reading": "loading",
+    "writing": "saving",
+    "creating": "adding",
+    "deleting": "removing",
+    "editing": "updating"
+  },
+  "desktop": {
+    "theme": {
+      "gradient": "from-[#FAFAF8] via-[#F5F3EE] to-[#F0EDE6]",
+      "accentColor": "#0B6E4F",
+      "dockStyle": "minimal"
+    },
+    "themeRecipe": "utilitarian",
+    "themeTokens": {
+      "palette": {
+        "primary": "#0B6E4F",
+        "highlight": "#D4AF37",
+        "contrast": "#1A2E28",
+        "secondary": "#D4AF37",
+        "accent": "#D4AF37",
+        "primaryScale": {
+          "50": "#06242c",
+          "100": "#082f3a",
+          "200": "#0a3d4b",
+          "500": "#00d9e4",
+          "600": "#00f2fe",
+          "700": "#00c0cb",
+          "900": "#016d75"
+        },
+        "highlightScale": {
+          "50": "#06242c",
+          "100": "#082f3a",
+          "200": "#0a3d4b",
+          "500": "#00d9e4",
+          "600": "#00f2fe",
+          "700": "#00c0cb",
+          "900": "#016d75"
+        },
+        "surfaces": {
+          "page": "#FAFAF8",
+          "pageAlt": "#F5F3EE",
+          "gradientFrom": "#FAFAF8",
+          "gradientVia": "#F5F3EE",
+          "gradientTo": "#F0EDE6",
+          "card": "#F5F3EE",
+          "cardHover": "#F0EDE6",
+          "panel": "#F5F3EE",
+          "panelStrong": "#FFFFFF",
+          "muted": "#F7F5F0",
+          "accentSoft": "#F5ECD1",
+          "border": "rgba(26,46,40,0.08)",
+          "borderStrong": "rgba(26,46,40,0.15)"
+        },
+        "text": {
+          "primary": "#1A2E28",
+          "secondary": "#3d524c",
+          "brand": "#1A2E28",
+          "accent": "#8a7020",
+          "muted": "#6b7f78",
+          "onPrimary": "#FAFAF8",
+          "onHighlight": "#1A2E28",
+          "onContrast": "#FAFAF8"
+        },
+        "semantic": {
+          "success": "#22c55e",
+          "warning": "#f59e0b",
+          "danger": "#ef4444"
+        },
+        "shell": {
+          "buttonText": "#0b0f19",
+          "accentButtonText": "#0b0f19",
+          "dockText": "#aab3c2",
+          "icon": "#f4f6f8",
+          "shadow": "#000000",
+          "shadowStrong": "#000000"
+        }
+      },
+      "typography": {
+        "headingFont": "Instrument Serif",
+        "bodyFont": "Inter",
+        "fontFamily": "\"Inter\", ui-sans-serif, system-ui, sans-serif"
+      },
+      "shell": {
+        "accentColor": "#0B6E4F",
+        "dockStyle": "minimal",
+        "pageBackground": "#FAFAF8",
+        "gateBackground": "linear-gradient(180deg, #FAFAF8 0%, #F5F3EE 55%, #F0EDE6 100%)",
+        "panelBackground": "#F5F3EE",
+        "panelStrongBackground": "#FFFFFF"
+      },
+      "cssVariables": {
+        "--space-brand-primary": "#00f2fe",
+        "--space-brand-highlight": "#00f2fe",
+        "--space-brand-contrast": "#e07a5f",
+        "--space-brand-primary-50": "#06242c",
+        "--space-brand-primary-100": "#082f3a",
+        "--space-brand-primary-200": "#0a3d4b",
+        "--space-brand-primary-500": "#00d9e4",
+        "--space-brand-primary-600": "#00f2fe",
+        "--space-brand-primary-700": "#00c0cb",
+        "--space-brand-primary-900": "#016d75",
+        "--space-brand-highlight-50": "#06242c",
+        "--space-brand-highlight-100": "#082f3a",
+        "--space-brand-highlight-200": "#0a3d4b",
+        "--space-brand-highlight-500": "#00d9e4",
+        "--space-brand-highlight-600": "#00f2fe",
+        "--space-brand-highlight-700": "#00c0cb",
+        "--space-brand-highlight-900": "#016d75",
+        "--space-surface-page": "#0b0f19",
+        "--space-surface-page-alt": "#0f1420",
+        "--space-surface-gradient-from": "#0b0f19",
+        "--space-surface-gradient-via": "#0d1220",
+        "--space-surface-gradient-to": "#101627",
+        "--space-surface-card": "#121826",
+        "--space-surface-card-hover": "#161d2e",
+        "--space-surface-panel": "#101522",
+        "--space-surface-panel-strong": "#161d2e",
+        "--space-surface-muted": "#1a2130",
+        "--space-surface-accent-soft": "#2a1a14",
+        "--space-border-default": "#222b3d",
+        "--space-border-strong": "#2d3850",
+        "--space-text-primary": "#f4f6f8",
+        "--space-text-secondary": "#aab3c2",
+        "--space-text-brand": "#e07a5f",
+        "--space-text-accent": "#f0c4b3",
+        "--space-text-muted": "#7c8698",
+        "--space-text-on-primary": "#0b0f19",
+        "--space-text-on-highlight": "#0b0f19",
+        "--space-text-on-contrast": "#0b0f19",
+        "--space-semantic-success": "#22c55e",
+        "--space-semantic-warning": "#f59e0b",
+        "--space-semantic-danger": "#ef4444",
+        "--space-shell-button-text": "#0b0f19",
+        "--space-shell-accent-button-text": "#0b0f19",
+        "--space-shell-dock-text": "#aab3c2",
+        "--space-shell-icon": "#f4f6f8",
+        "--space-shell-shadow": "#000000",
+        "--space-shell-shadow-strong": "#000000"
+      }
+    },
+    "layout": {
+      "agentPosition": "center",
+      "dockPosition": "left",
+      "appWindowSize": "medium",
+      "defaultLandingView": "app",
+      "defaultLandingAppId": "main",
+      "customerLandsOnAgent": false
+    },
+    "branding": {
+      "name": "OziUno",
+      "tagline": "Your AI Household Operating System",
+      "logoUrl": "https://storage.googleapis.com/audos-images/generated-images/agent/workspace-968216/img-1786971960105-f9hono.png",
+      "headingFont": "Instrument Serif",
+      "bodyFont": "Inter",
+      "colors": {
+        "primary": "#0B6E4F",
+        "highlight": "#D4AF37",
+        "contrast": "#1A2E28",
+        "secondary": "#D4AF37",
+        "accent": "#D4AF37",
+        "primaryScale": {
+          "50": "#06242c",
+          "100": "#082f3a",
+          "200": "#0a3d4b",
+          "500": "#00d9e4",
+          "600": "#00f2fe",
+          "700": "#00c0cb",
+          "900": "#016d75"
+        },
+        "highlightScale": {
+          "50": "#06242c",
+          "100": "#082f3a",
+          "200": "#0a3d4b",
+          "500": "#00d9e4",
+          "600": "#00f2fe",
+          "700": "#00c0cb",
+          "900": "#016d75"
+        },
+        "surfaces": {
+          "page": "#FAFAF8",
+          "pageAlt": "#F5F3EE",
+          "gradientFrom": "#FAFAF8",
+          "gradientVia": "#F5F3EE",
+          "gradientTo": "#F0EDE6",
+          "card": "#F5F3EE",
+          "cardHover": "#F0EDE6",
+          "panel": "#F5F3EE",
+          "panelStrong": "#FFFFFF",
+          "muted": "#F7F5F0",
+          "accentSoft": "#F5ECD1",
+          "border": "rgba(26,46,40,0.08)",
+          "borderStrong": "rgba(26,46,40,0.15)"
+        },
+        "text": {
+          "primary": "#1A2E28",
+          "secondary": "#3d524c",
+          "brand": "#1A2E28",
+          "accent": "#8a7020",
+          "muted": "#6b7f78",
+          "onPrimary": "#FAFAF8",
+          "onHighlight": "#1A2E28",
+          "onContrast": "#FAFAF8"
+        },
+        "semantic": {
+          "success": "#22c55e",
+          "warning": "#f59e0b",
+          "danger": "#ef4444"
+        },
+        "shell": {
+          "buttonText": "#0b0f19",
+          "accentButtonText": "#0b0f19",
+          "dockText": "#aab3c2",
+          "icon": "#f4f6f8",
+          "shadow": "#000000",
+          "shadowStrong": "#000000"
+        }
+      },
+      "palette": {
+        "primary": "#0B6E4F",
+        "highlight": "#D4AF37",
+        "contrast": "#1A2E28",
+        "secondary": "#D4AF37",
+        "accent": "#D4AF37",
+        "primaryScale": {
+          "50": "#06242c",
+          "100": "#082f3a",
+          "200": "#0a3d4b",
+          "500": "#00d9e4",
+          "600": "#00f2fe",
+          "700": "#00c0cb",
+          "900": "#016d75"
+        },
+        "highlightScale": {
+          "50": "#06242c",
+          "100": "#082f3a",
+          "200": "#0a3d4b",
+          "500": "#00d9e4",
+          "600": "#00f2fe",
+          "700": "#00c0cb",
+          "900": "#016d75"
+        },
+        "surfaces": {
+          "page": "#FAFAF8",
+          "pageAlt": "#F5F3EE",
+          "gradientFrom": "#FAFAF8",
+          "gradientVia": "#F5F3EE",
+          "gradientTo": "#F0EDE6",
+          "card": "#F5F3EE",
+          "cardHover": "#F0EDE6",
+          "panel": "#F5F3EE",
+          "panelStrong": "#FFFFFF",
+          "muted": "#F7F5F0",
+          "accentSoft": "#F5ECD1",
+          "border": "rgba(26,46,40,0.08)",
+          "borderStrong": "rgba(26,46,40,0.15)"
+        },
+        "text": {
+          "primary": "#1A2E28",
+          "secondary": "#3d524c",
+          "brand": "#1A2E28",
+          "accent": "#8a7020",
+          "muted": "#6b7f78",
+          "onPrimary": "#FAFAF8",
+          "onHighlight": "#1A2E28",
+          "onContrast": "#FAFAF8"
+        },
+        "semantic": {
+          "success": "#22c55e",
+          "warning": "#f59e0b",
+          "danger": "#ef4444"
+        },
+        "shell": {
+          "buttonText": "#0b0f19",
+          "accentButtonText": "#0b0f19",
+          "dockText": "#aab3c2",
+          "icon": "#f4f6f8",
+          "shadow": "#000000",
+          "shadowStrong": "#000000"
+        }
+      }
+    }
+  },
+  "cdnDependencies": {
+    "remark-gfm": {
+      "version": "4.0.0"
+    },
+    "lucide-react": {
+      "version": "0.575.0",
+      "url": "https://esm.sh/lucide-react@0.575.0?deps=react@18.3.1"
+    },
+    "react-qr-code": {
+      "version": "2.2.0",
+      "url": "https://esm.sh/react-qr-code@2.2.0?deps=react@18.3.1"
+    }
+  },
+  "agent": {
+    "welcomeMessage": "Good day! I'm OziUno, your household assistant. Tell me anything — \"Jake's dentist is Thursday at 3pm\", \"The electricity bill is due Friday\", \"Emma doesn't eat mushrooms\" — and I'll remember it. Every morning I'll brief you on what matters that day. What's happening in your home this week?",
+    "name": "OziUno",
+    "starterPrompts": [
+      "Set up my household — let me tell you about my family",
+      "What do I need to do today?",
+      "Where did we put the spare batteries?",
+      "What's running low at home?",
+      "What should I use up this week so nothing goes to waste?"
+    ]
+  }
+}

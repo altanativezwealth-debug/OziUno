@@ -1,0 +1,148 @@
+{
+  "businessPlan": "## Business Overview\nOziUno\n\nAn AI-native household memory assistant that helps families never forget anything about their household again. Core interaction pillars: talk to OziUno conversationally, it logs information reliably, and it delivers a morning briefing as a daily proactive touchpoint.\n\n## Customer Profile\nSingle working moms who are both breadwinners and sole household operators — women carrying full financial responsibility AND the entire mental load of running a home, with no domestic co-manager to share the weight.\n\n### Pain Points\n- Single working moms are trying to run an entire household alone while holding down a career — who likes what for dinner, when the HVAC was last serviced, which kid has soccer on Tuesdays, and what the plumber said last spring. There is no partner to split the cognitive load. They're solving the problem of doing it all: full-time work, full-time parenting, and full-time household management with no backup. Their aspiration is a home that mostly runs itself — where nothing important slips through the cracks, and they can get a clear answer in seconds instead of digging through texts, emails, or their own exhausted memory.\n\n## Key Problems\n- **Single working moms carry the entire household alone**: Single working moms are trying to run a household without carrying everything in their heads — who likes what for dinner, when the HVAC was last serviced, which kid has soccer on Tuesdays, and what the plumber said last spring. There is no co-manager. They're solving the problem of solo coordination overload: full income responsibility, full parenting responsibility, too many schedules, too many recurring tasks, and no single place that remembers it all. Their aspiration is a home that mostly runs itself — where nothing important slips through the cracks, and they can get a clear answer in seconds instead of digging through texts, emails, or someone's memory.\n\n## Customer Journey\n# OziUno — Agent Journey Guide\n\n## 1. USER GOALS\n\nSingle working moms are trying to run a household alone while also being the primary breadwinner — who likes what for dinner, when the HVAC was last serviced, which kid has soccer on Tuesdays, and what the plumber said last spring. There is no partner to share the mental load. They're solving the problem of solo coordination overload: full income responsibility, full parenting responsibility, too many recurring tasks, and no single place that remembers it all. Their aspiration is a home that mostly runs itself — where nothing important slips through the cracks, and they can get a clear answer in seconds instead of digging through texts, emails, or their own memory.\n\n---\n\n## 2. QUALIFYING QUESTIONS\n\n**\"What would help your household most right now?\"**\n\n1. Remembering preferences, routines, and household details  \n2. Tracking recurring maintenance and to-dos so nothing gets missed  \n3. Getting quick answers when someone asks \"when did we last…?\" or \"what's the plan for…?\"\n\n**\"Who's mostly keeping track of things today?\"**\n\na. Me — I carry all of it  \nb. I try to share it with the kids but it's still mostly me  \nc. I've tried apps or lists but nothing sticks  \n\n---\n\n## 3. JOURNEY NARRATIVE\n\nMost single moms don't arrive wanting \"an AI home memory system.\" They arrive depleted — another forgotten appointment, another \"wait, who was our electrician?\" moment, another week where dinner planning fell apart because there was no one else to catch it. The agent's job is to meet them there, listen, and show that OziUno can hold what their brain can't.\n\nThe natural flow starts with a quick conversation: what's overwhelming, what keeps getting lost, and what would make this week even slightly easier. From there, the agent helps them capture a few high-value pieces — a kid's schedule, a maintenance log, food preferences, vendor contacts — not everything at once. Early wins matter: \"When did we last change the air filter?\" answered instantly, or a reminder surfaced before something was forgotten.\n\nAs they use it, different activities stack into a living household memory. Logging becomes effortless; asking questions gets faster and more accurate; routines and recurring tasks start to run in the background. The agent stays conversational — suggesting what to add next based on what they've shared, not dumping a setup checklist on them.\n\nOver time, the agent learns from every interaction: which topics come up often, what gets forgotten, what format of answer helps most. Recommendations get sharper — \"You mentioned the water heater twice this month; want to log the last service date?\" — so the system feels like it knows their home, not like generic software.\n\n---\n\n## 4. APP SUPPORT MAP\n\n**Creation tools** (quick capture, voice/text logging, importing schedules) help at the start and whenever something new enters the household — a new kid's activity, a renovation, a vendor switch. **Tracking tools** (maintenance logs, recurring task lists, calendar-linked reminders) matter once basics are in and she wants fewer things to slip. **Automation tools** (proactive nudges, seasonal checklists, \"ask before it's due\" prompts) pay off when the household memory is rich enough to act on patterns.\n\nRecommend creation when she's overwhelmed and has nothing captured yet; tracking when she knows what falls through the cracks but can't stay on top of it; automation when she's getting answers easily and wants the system to reach out first — before the filter is overdue or the permission slip is due.\n\n---\n\n## 5. COMMUNITY OPPORTUNITIES\n\nSingle moms benefit from shared intelligence around the invisible work of running a home alone — what others actually track, how they manage routines solo, which maintenance intervals matter, and what \"good enough\" looks like for a one-parent household. Anonymized patterns (\"most single-parent households log school calendar updates at the start of each term\") and optional community tips can shorten the path from blank slate to a household that runs smoothly. The entrepreneur can harness customer experiences — aggregated maintenance timelines, seasonal prep checklists, vendor categories moms wish they'd logged sooner — to help new users start smart and help existing users discover gaps they didn't know they had.\n\n---\n\n## 6. MONETIZATION HOOK\n\nThe first payment moment usually isn't \"I want an AI\" — it's relief. She asks something she's been trying to remember for weeks — *\"When did we last service the AC, and who did we use?\"* — and OziUno answers in one sentence, correctly, with context. That's the aha: *this remembers my home so I don't have to.*\n\nDesign backward from that moment. Before payment, she needs enough free usage to capture a handful of real household facts and ask real questions — not demo data. The free tier should prove the memory works on *her* home. The paywall sits where ongoing value compounds: unlimited history, proactive reminders, maintenance timelines, and the system actively watching for gaps (\"you haven't logged X since…\").\n\nFirst payment is triggered by a specific saved hour or crisis averted — one thing she didn't have to hold in her head. Staying subscribed is different: it's the quiet confidence that the household runs without her being the full-time memory. Month after month, she pays because OziUno keeps learning, nudging, and answering — so the mental load stays off her shoulders even as schedules, kids, and the house keep changing.\n\n## AI Tool Suite\n### Service Log\n**Purpose**: Track every home maintenance job—what was done, when, and who did it—so she can instantly answer \"when did we last…?\" without digging through texts or memory.\n**User Story**: I just got off the phone with the HVAC company and want to log what they did so next time I need to know \"when did we last service the AC?\" I can answer in two seconds.\n**Primary Inputs**: Service item, date, vendor/contact, cost, notes, and recurrence interval.\n**Primary Output**: A searchable household maintenance history with last-service dates, vendor recall, and overdue flags (color-coded: overdue, due soon, up to date).\n**Icon**: Wrench\n\n## Brand Identity\n**Brand Name**: OziUno\n**Color Palette**: Deep Space / Kinetic Teal — deep navy/black tones as the primary base with vibrant teal as the accent color.\n**Aesthetic Mood**: Sleek, AI-forward, and purposeful. Dark-mode native with an intelligent assistant platform feel — ambient, focused, and slightly futuristic. Trustworthy and modern rather than decorative or lifestyle-adjacent.\n**Tagline / Hero Headline**: \"Never forget anything about your household again.\"\n\n---\n*Generated on 7/17/2026*\n---",
+  "workspaceId": "b80b7145-fd1f-4684-8482-9351501cabea",
+  "configId": 968216,
+  "name": "OziUno",
+  "tagline": "Your AI Household Operating System",
+  "logoUrl": "https://storage.googleapis.com/audos-images/generated-images/agent/workspace-968216/img-1786971960105-f9hono.png",
+  "iconUrl": "https://storage.googleapis.com/audos-images/brand-icons/0caf3182-a361-4020-88bd-bf340c943800.png",
+  "colors": {
+    "primary": "#0b6e4f",
+    "highlight": "#d4af37",
+    "contrast": "#1a2e28",
+    "secondary": "#d4af37",
+    "accent": "#1a2e28",
+    "primaryScale": {
+      "50": "#ebf3f1",
+      "100": "#d8e8e3",
+      "200": "#bbd6ce",
+      "500": "#0a6549",
+      "600": "#0b6e4f",
+      "700": "#095c42",
+      "900": "#074934"
+    },
+    "highlightScale": {
+      "50": "#fcf9ef",
+      "100": "#f8f2df",
+      "200": "#f3e9c7",
+      "500": "#c3a133",
+      "600": "#d4af37",
+      "700": "#b2932e",
+      "900": "#8c7324"
+    },
+    "surfaces": {
+      "page": "#f3f8f6",
+      "pageAlt": "#e8eaea",
+      "gradientFrom": "#f3f8f6",
+      "gradientVia": "#e8eaea",
+      "gradientTo": "#f6edd3",
+      "card": "#ffffff",
+      "cardHover": "#f5f9f8",
+      "panel": "#ffffff",
+      "panelStrong": "#ffffff",
+      "muted": "#fafcfb",
+      "accentSoft": "#f5eccf",
+      "border": "#c9dfd8",
+      "borderStrong": "#accec3"
+    },
+    "text": {
+      "primary": "#031f16",
+      "secondary": "#063b2b",
+      "brand": "#031f16",
+      "accent": "#3b310f",
+      "muted": "#084d37",
+      "onPrimary": "#ffffff",
+      "onHighlight": "#1a2e28",
+      "onContrast": "#d4af37"
+    },
+    "semantic": {
+      "success": "#16a34a",
+      "warning": "#d97706",
+      "danger": "#dc2626"
+    },
+    "shell": {
+      "buttonText": "#ffffff",
+      "accentButtonText": "#1a2e28",
+      "dockText": "#ffffff",
+      "icon": "#3b310f",
+      "shadow": "#b6d4ca",
+      "shadowStrong": "#94bfb2"
+    }
+  },
+  "palette": {
+    "primary": "#0b6e4f",
+    "highlight": "#d4af37",
+    "contrast": "#1a2e28",
+    "secondary": "#d4af37",
+    "accent": "#1a2e28",
+    "primaryScale": {
+      "50": "#ebf3f1",
+      "100": "#d8e8e3",
+      "200": "#bbd6ce",
+      "500": "#0a6549",
+      "600": "#0b6e4f",
+      "700": "#095c42",
+      "900": "#074934"
+    },
+    "highlightScale": {
+      "50": "#fcf9ef",
+      "100": "#f8f2df",
+      "200": "#f3e9c7",
+      "500": "#c3a133",
+      "600": "#d4af37",
+      "700": "#b2932e",
+      "900": "#8c7324"
+    },
+    "surfaces": {
+      "page": "#f3f8f6",
+      "pageAlt": "#e8eaea",
+      "gradientFrom": "#f3f8f6",
+      "gradientVia": "#e8eaea",
+      "gradientTo": "#f6edd3",
+      "card": "#ffffff",
+      "cardHover": "#f5f9f8",
+      "panel": "#ffffff",
+      "panelStrong": "#ffffff",
+      "muted": "#fafcfb",
+      "accentSoft": "#f5eccf",
+      "border": "#c9dfd8",
+      "borderStrong": "#accec3"
+    },
+    "text": {
+      "primary": "#031f16",
+      "secondary": "#063b2b",
+      "brand": "#031f16",
+      "accent": "#3b310f",
+      "muted": "#084d37",
+      "onPrimary": "#ffffff",
+      "onHighlight": "#1a2e28",
+      "onContrast": "#d4af37"
+    },
+    "semantic": {
+      "success": "#16a34a",
+      "warning": "#d97706",
+      "danger": "#dc2626"
+    },
+    "shell": {
+      "buttonText": "#ffffff",
+      "accentButtonText": "#1a2e28",
+      "dockText": "#ffffff",
+      "icon": "#3b310f",
+      "shadow": "#b6d4ca",
+      "shadowStrong": "#94bfb2"
+    }
+  },
+  "typography": {
+    "font": "Inter",
+    "category": "sans-serif",
+    "weights": [
+      400,
+      500,
+      600,
+      700
+    ],
+    "headingFont": "Instrument Serif",
+    "bodyFont": "Inter"
+  },
+  "heroVideoUrl": "https://storage.googleapis.com/audos-images/videos/scene_group_1784322201641_stitched.mp4"
+}

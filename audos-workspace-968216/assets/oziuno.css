@@ -1,0 +1,65 @@
+/* OziUno brand tokens — emerald & gold household OS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  --ozi-primary: #0B6E4F;
+  --ozi-gold: #D4AF37;
+  --ozi-bg: #FAFAF8;
+  --ozi-surface: #F5F3EE;
+  --ozi-card: #F5F3EE;
+  --ozi-text: #1A2E28;
+  --ozi-muted: #5a6b65;
+  --ozi-border: rgba(26, 46, 40, 0.08);
+  --ozi-ink: #1a2e28;
+  --ozi-destructive: #dc2626;
+  --ozi-font: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --ozi-display: 'Instrument Serif', 'Inter', ui-serif, serif;
+  --ozi-radius: 1rem;
+}
+
+.ozi-root {
+  font-family: var(--ozi-font);
+  background: var(--ozi-bg);
+  color: var(--ozi-text);
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ozi-root h1, .ozi-root h2, .ozi-root h3 {
+  font-family: var(--ozi-display);
+  letter-spacing: -0.015em;
+}
+
+.ozi-btn-primary {
+  background: var(--ozi-primary);
+  color: #FAFAF8;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.625rem 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.ozi-btn-primary:hover { opacity: 0.9; }
+
+.ozi-btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.ozi-input {
+  width: 100%;
+  border: 1px solid var(--ozi-border);
+  background: var(--ozi-card);
+  border-radius: 0.75rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.ozi-input:focus { border-color: rgba(11, 110, 79, 0.4); }
+
+.ozi-card {
+  background: var(--ozi-card);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 0 0 1px rgba(26, 46, 40, 0.05);
+}
